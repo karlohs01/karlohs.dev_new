@@ -34,9 +34,9 @@ export function Navigation() {
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <a href="#" className="flex items-center gap-2 group">
-            <Terminal className="w-5 h-5 text-terminal-green" />
-            <span className="font-mono text-sm text-terminal-green">
-              carlos@portfolio
+            <Terminal className="w-5 h-5 text-terminal-blue" />
+            <span className="font-mono text-sm text-terminal-blue">
+              karlohs.dev
               <span className="cursor-blink">_</span>
             </span>
           </a>
@@ -47,9 +47,9 @@ export function Navigation() {
               <a
                 key={item.href}
                 href={item.href}
-                className="font-mono text-sm text-muted-foreground hover:text-terminal-green transition-colors"
+                className="font-mono text-sm text-muted-foreground hover:text-terminal-blue transition-colors"
               >
-                <span className="text-terminal-dim">./</span>
+                <span className="text-terminal-dim"></span>
                 {item.label.toLowerCase()}
               </a>
             ))}
@@ -73,7 +73,7 @@ export function Navigation() {
                 <a
                   key={item.href}
                   href={item.href}
-                  className="font-mono text-sm text-muted-foreground hover:text-terminal-green transition-colors"
+                  className="font-mono text-sm text-muted-foreground hover:text-terminal-blue transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   <span className="text-terminal-dim">$ cd </span>

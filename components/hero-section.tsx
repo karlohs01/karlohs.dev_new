@@ -40,23 +40,23 @@ export function HeroSection() {
             <div className="text-terminal-dim text-sm mb-2">$ whoami</div>
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4">Carlos Murillo</h1>
             <div className="text-terminal-dim text-sm mb-2">$ cat role.txt</div>
-            <h2 className="text-2xl md:text-3xl text-terminal-green mb-6">
+            <h2 className="text-2xl md:text-3xl text-terminal-blue mb-6">
               {displayText}
               <span className="cursor-blink">|</span>
             </h2>
             <div className="text-terminal-dim text-sm mb-2">$ cat bio.txt</div>
             <p className="text-muted-foreground max-w-2xl leading-relaxed mb-8">
-              Computer Science student at Florida Polytechnic University specializing in Software Engineering. Building
-              scalable systems, optimizing performance, and crafting elegant solutions to complex problems.
+              Computer Science senior at Florida Polytechnic University with a focus in Software Engineering.
+              
             </p>
 
             <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground mb-8">
               <div className="flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-terminal-green" />
+                <MapPin className="w-4 h-4 text-terminal-blue" />
                 <span>Lakeland, FL (Open to relocation)</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-terminal-green">•</span>
+                <span className="text-terminal-blue">•</span>
                 <span>Graduating May 2026</span>
               </div>
             </div>
@@ -66,7 +66,7 @@ export function HeroSection() {
                 href="https://github.com/karlohs01"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 bg-secondary hover:bg-secondary/80 border border-border rounded text-sm transition-all hover:border-terminal-green hover:text-terminal-green"
+                className="flex items-center gap-2 px-4 py-2 bg-secondary hover:bg-secondary/80 border border-border rounded text-sm transition-all hover:border-terminal-blue hover:text-terminal-blue"
               >
                 <Github className="w-4 h-4" />
                 <span>github</span>
@@ -75,14 +75,14 @@ export function HeroSection() {
                 href="https://www.linkedin.com/in/csmurillo"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 bg-secondary hover:bg-secondary/80 border border-border rounded text-sm transition-all hover:border-terminal-green hover:text-terminal-green"
+                className="flex items-center gap-2 px-4 py-2 bg-secondary hover:bg-secondary/80 border border-border rounded text-sm transition-all hover:border-terminal-blue hover:text-terminal-blue"
               >
                 <Linkedin className="w-4 h-4" />
                 <span>linkedin</span>
               </a>
               <a
                 href="mailto:carlosengineers@outlook.com"
-                className="flex items-center gap-2 px-4 py-2 bg-terminal-green text-primary-foreground hover:bg-terminal-green/90 rounded text-sm transition-all font-medium"
+                className="flex items-center gap-2 px-4 py-2 bg-terminal-blue text-primary-foreground hover:bg-terminal-blue/90 rounded text-sm transition-all font-medium"
               >
                 <Mail className="w-4 h-4" />
                 <span>contact</span>
@@ -95,7 +95,7 @@ export function HeroSection() {
         <div className="flex justify-center mt-12">
           <a
             href="#about"
-            className="text-muted-foreground hover:text-terminal-green transition-colors animate-bounce"
+            className="text-muted-foreground hover:text-terminal-blue transition-colors animate-bounce"
             aria-label="Scroll to about section"
           >
             <ChevronDown className="w-6 h-6" />

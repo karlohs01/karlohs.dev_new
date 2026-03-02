@@ -3,7 +3,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Terminal-inspired dark theme with green accents */
+/* Terminal-inspired dark theme with blue accents */
 :root {
   --background: oklch(0.1 0.005 240);
   --foreground: oklch(0.85 0.01 220);
@@ -40,9 +40,9 @@
   --sidebar-ring: oklch(0.65 0.15 145);
 
   /* Custom terminal colors */
-  --terminal-green: oklch(0.75 0.18 145);
+  --terminal-blue: oklch(61.377% 0.19986 258.235);
   --terminal-amber: oklch(0.78 0.15 85);
-  --terminal-dim: oklch(0.45 0.05 145);
+  --terminal-dim: oklch(55.872% 0.12684 263.879);
 }
 
 @theme inline {
@@ -84,7 +84,7 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-  --color-terminal-green: var(--terminal-green);
+  --color-terminal-blue: var(--terminal-blue);
   --color-terminal-amber: var(--terminal-amber);
   --color-terminal-dim: var(--terminal-dim);
 }

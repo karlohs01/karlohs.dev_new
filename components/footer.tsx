@@ -6,7 +6,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 font-mono text-sm text-muted-foreground">
-            <Terminal className="w-4 h-4 text-terminal-green" />
+            <Terminal className="w-4 h-4 text-terminal-blue" />
             <span>carlos@portfolio</span>
             <span className="text-terminal-dim">~</span>
             <span>Built with Next.js</span>

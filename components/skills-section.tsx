@@ -28,7 +28,7 @@ export function SkillsSection() {
     <section id="skills" className="py-24 px-6 bg-card/30">
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center gap-3 mb-12">
-          <span className="font-mono text-terminal-green text-sm">02.</span>
+          <span className="font-mono text-terminal-blue text-sm">02.</span>
           <h2 className="text-2xl font-bold text-foreground">Skills</h2>
           <div className="h-px bg-border flex-1 max-w-xs" />
         </div>
@@ -37,7 +37,7 @@ export function SkillsSection() {
           {skillCategories.map((category, index) => (
             <div
               key={category.title}
-              className="bg-card border border-border rounded-lg overflow-hidden hover:border-terminal-green/50 transition-all"
+              className="bg-card border border-border rounded-lg overflow-hidden hover:border-terminal-blue/50 transition-all"
             >
               {/* Terminal Header */}
               <div className="bg-secondary/50 px-4 py-2 border-b border-border">
@@ -53,7 +53,7 @@ export function SkillsSection() {
                   {category.skills.map((skill) => (
                     <span
                       key={skill}
-                      className="px-3 py-1 bg-secondary text-foreground rounded text-xs border border-border hover:border-terminal-green hover:text-terminal-green transition-colors"
+                      className="px-3 py-1 bg-secondary text-foreground rounded text-xs border border-border hover:border-terminal-blue hover:text-terminal-blue transition-colors"
                     >
                       {skill}
                     </span>
