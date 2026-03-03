@@ -2,22 +2,22 @@ import { ExternalLink, Github, Server, Cloud, Container } from "lucide-react"
 
 const projects = [
   {
-    title: "Socket-Based Cloud Network File Sharing",
+    title: "Student Academic Assistant Agent",
+    description:
+      "Architected an autonomous Student Academic Assistant in Python using LangChain’s tool-calling framework.",
+    tech: ["Python", "LangChain"],
+    icon: Cloud,
+    highlights: ["Used for study schedule planning, deadline checking, rubric checking", "Short and long-term memory capabilities", "Demonstrates rational agent behavior"],
+    date: "Feb. 2026 – Mar. 2026",
+  },
+  {
+    title: "Socket-Based Cloud Network File Sharing Application",
     description:
       "Built a client/server networking system supporting file uploads/downloads from 50+ concurrent clients with integrated SQLite database and network analytics.",
     tech: ["Python", "SQLite", "GCP", "Socket Programming"],
     icon: Cloud,
     highlights: ["50+ concurrent client support", "25+ file storage capacity", "Real-time analytics module"],
     date: "Sep 2024 – Dec 2024",
-  },
-  {
-    title: "High Availability Containerized Deployment",
-    description:
-      "Deployed a scalable riddle bank web application with Docker & Google Cloud Platform, featuring nginx load balancing and persistent storage.",
-    tech: ["Python", "Docker", "Flask", "PostgreSQL", "nginx", "LVM"],
-    icon: Container,
-    highlights: ["Load-balanced HTTP routing", "Persistent LVM storage", "37+ riddle capacity"],
-    date: "Apr 2024 – May 2024",
   },
   {
     title: "Linux-Based Scheduler Program",

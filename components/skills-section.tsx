@@ -4,17 +4,17 @@ const skillCategories = [
   {
     title: "Languages",
     command: "ls languages/",
-    skills: ["C", "C++", "Python", "Java", "JavaScript", "HTML", "CSS", "SQL"],
+    skills: ["C", "C++", "Python", "Java", "JavaScript", "HTML", "CSS", "SQL", "TypeScript"],
   },
   {
     title: "Developer Tools",
     command: "ls tools/",
-    skills: ["Git", "Docker", "GCP", "VS Code", "Visual Studio", "PyCharm", "IntelliJ", "Figma", "Copilot"],
+    skills: ["Git", "Docker", "GCP", "VS Code", "Visual Studio", "PyCharm", "IntelliJ", "Figma", "JUnit"],
   },
   {
     title: "Libraries & Frameworks",
     command: "ls libraries/",
-    skills: ["pandas", "NumPy", "Matplotlib", "TensorFlow", "scikit-learn", "Flask", "PostgreSQL", "SQLite"],
+    skills: ["pandas", "NumPy", "Matplotlib", "TensorFlow", "scikit-learn", "Flask", "PostgreSQL", "SQLite", "React"],
   },
   {
     title: "Concepts",
