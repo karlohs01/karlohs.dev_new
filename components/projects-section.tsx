@@ -35,7 +35,7 @@ export function ProjectsSection() {
     <section id="projects" className="py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center gap-3 mb-12">
-          <span className="font-mono text-terminal-blue text-sm">03.</span>
+          <span className="font-mono text-terminal-green text-sm">03.</span>
           <h2 className="text-2xl font-bold text-foreground">Projects</h2>
           <div className="h-px bg-border flex-1 max-w-xs" />
         </div>
@@ -44,7 +44,7 @@ export function ProjectsSection() {
           {projects.map((project, index) => (
             <div
               key={project.title}
-              className="bg-card border border-border rounded-lg overflow-hidden hover:border-terminal-blue/50 transition-all group"
+              className="bg-card border border-border rounded-lg overflow-hidden hover:border-terminal-green/50 transition-all group"
             >
               {/* Terminal Header */}
               <div className="bg-secondary/50 px-4 py-2 border-b border-border flex items-center justify-between">
@@ -64,11 +64,11 @@ export function ProjectsSection() {
               {/* Project Content */}
               <div className="p-6 md:p-8">
                 <div className="flex items-start gap-4 mb-4">
-                  <div className="p-3 bg-terminal-blue/10 rounded-lg group-hover:bg-terminal-blue/20 transition-colors">
-                    <project.icon className="w-6 h-6 text-terminal-blue" />
+                  <div className="p-3 bg-terminal-green/10 rounded-lg group-hover:bg-terminal-green/20 transition-colors">
+                    <project.icon className="w-6 h-6 text-terminal-green" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-terminal-blue transition-colors">
+                    <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-terminal-green transition-colors">
                       {project.title}
                     </h3>
                     <p className="text-muted-foreground text-sm leading-relaxed">{project.description}</p>
@@ -82,7 +82,7 @@ export function ProjectsSection() {
                     <ul className="mt-2 space-y-1">
                       {project.highlights.map((highlight) => (
                         <li key={highlight} className="text-muted-foreground flex items-center gap-2">
-                          <span className="text-terminal-blue">›</span>
+                          <span className="text-terminal-green">›</span>
                           {highlight}
                         </li>
                       ))}
@@ -94,7 +94,7 @@ export function ProjectsSection() {
                     {project.tech.map((tech) => (
                       <span
                         key={tech}
-                        className="px-2 py-1 bg-secondary text-xs font-mono text-terminal-blue border border-terminal-blue/30 rounded"
+                        className="px-2 py-1 bg-secondary text-xs font-mono text-terminal-green border border-terminal-green/30 rounded"
                       >
                         {tech}
                       </span>
@@ -111,7 +111,7 @@ export function ProjectsSection() {
             href="https://github.com/karlohs01"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 font-mono text-sm text-muted-foreground hover:text-terminal-blue transition-colors"
+            className="inline-flex items-center gap-2 font-mono text-sm text-muted-foreground hover:text-terminal-green transition-colors"
           >
             <Github className="w-4 h-4" />
             View more on GitHub

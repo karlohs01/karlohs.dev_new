@@ -42,7 +42,7 @@ export function ExperienceSection() {
     <section id="experience" className="py-24 px-6 bg-card/30">
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center gap-3 mb-12">
-          <span className="font-mono text-terminal-blue text-sm">04.</span>
+          <span className="font-mono text-terminal-green text-sm">04.</span>
           <h2 className="text-2xl font-bold text-foreground">Experience</h2>
           <div className="h-px bg-border flex-1 max-w-xs" />
         </div>
@@ -55,15 +55,15 @@ export function ExperienceSection() {
               {experiences.map((exp) => (
                 <div
                   key={exp.role}
-                  className="bg-card border border-border rounded-lg p-6 hover:border-terminal-blue/50 transition-all"
+                  className="bg-card border border-border rounded-lg p-6 hover:border-terminal-green/50 transition-all"
                 >
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
                     <div>
                       <h3 className="text-lg font-semibold text-foreground flex items-center gap-2">
                         {exp.role}
-                        <ArrowUpRight className="w-4 h-4 text-terminal-blue" />
+                        <ArrowUpRight className="w-4 h-4 text-terminal-green" />
                       </h3>
-                      <p className="text-terminal-blue font-mono text-sm">{exp.company}</p>
+                      <p className="text-terminal-green font-mono text-sm">{exp.company}</p>
                       <p className="text-muted-foreground text-sm">{exp.location}</p>
                     </div>
                     <div className="flex items-center gap-2 text-muted-foreground text-sm font-mono">
@@ -74,7 +74,7 @@ export function ExperienceSection() {
                   <ul className="space-y-2 mb-4">
                     {exp.description.map((item, i) => (
                       <li key={i} className="text-muted-foreground text-sm flex items-start gap-2">
-                        <span className="text-terminal-blue mt-1">›</span>
+                        <span className="text-terminal-green mt-1">›</span>
                         {item}
                       </li>
                     ))}
@@ -101,22 +101,22 @@ export function ExperienceSection() {
               {leadership.map((exp) => (
                 <div
                   key={exp.role}
-                  className="bg-card border border-border rounded-lg p-6 hover:border-terminal-blue/50 transition-all"
+                  className="bg-card border border-border rounded-lg p-6 hover:border-terminal-green/50 transition-all"
                 >
                   <div className="flex items-start gap-3 mb-4">
-                    <div className="p-2 bg-terminal-blue/10 rounded">
-                      <Briefcase className="w-4 h-4 text-terminal-blue" />
+                    <div className="p-2 bg-terminal-green/10 rounded">
+                      <Briefcase className="w-4 h-4 text-terminal-green" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground">{exp.role}</h3>
-                      <p className="text-terminal-blue font-mono text-xs">{exp.company}</p>
+                      <p className="text-terminal-green font-mono text-xs">{exp.company}</p>
                       <p className="text-muted-foreground text-xs font-mono mt-1">{exp.date}</p>
                     </div>
                   </div>
                   <ul className="space-y-2">
                     {exp.description.map((item, i) => (
                       <li key={i} className="text-muted-foreground text-sm flex items-start gap-2">
-                        <span className="text-terminal-blue mt-1">›</span>
+                        <span className="text-terminal-green mt-1">›</span>
                         {item}
                       </li>
                     ))}
