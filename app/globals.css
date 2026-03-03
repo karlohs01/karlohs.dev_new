@@ -43,9 +43,9 @@
   --sidebar-ring: oklch(0.65 0.15 145);
 
   /* Custom terminal colors */
-  --terminal-green: oklch(0.75 0.18 145);
+  --terminal-blue: oklch(64.21% 0.18165 256.571);
   --terminal-amber: oklch(0.78 0.15 85);
-  --terminal-dim: oklch(0.45 0.05 145);
+  --terminal-dim: oklch(45.783% 0.18929 260.352);
 }
 
 @theme inline {
@@ -87,7 +87,7 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-  --color-terminal-green: var(--terminal-green);
+  --color-terminal-blue: var(--terminal-blue);
   --color-terminal-amber: var(--terminal-amber);
   --color-terminal-dim: var(--terminal-dim);
 }

@@ -2,7 +2,7 @@ import type React from "react"
 import type { Metadata, Viewport } from "next"
 import { Inter, JetBrains_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
-import "../styles/globals.css"
+import "./globals.css"
 
 const _inter = Inter({ subsets: ["latin"] })
 const _jetbrainsMono = JetBrains_Mono({ subsets: ["latin"] })
@@ -10,7 +10,7 @@ const _jetbrainsMono = JetBrains_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Carlos Murillo | Software Engineer",
   description:
-    "Computer Science student at Florida Polytechnic University specializing in Software Engineering. Building scalable systems and solving complex problems.",
+    "Computer Science student at Florida Polytechnic University specializing in Software Engineering.",
   generator: "v0.app",
   icons: {
     icon: [

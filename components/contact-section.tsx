@@ -5,7 +5,7 @@ export function ContactSection() {
     <section id="contact" className="py-24 px-6">
       <div className="max-w-4xl mx-auto text-center">
         <div className="flex items-center justify-center gap-3 mb-12">
-          <span className="font-mono text-terminal-green text-sm">05.</span>
+          <span className="font-mono text-terminal-blue text-sm">05.</span>
           <h2 className="text-2xl font-bold text-foreground">Contact</h2>
         </div>
 
@@ -34,7 +34,7 @@ export function ContactSection() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="mailto:carlosengineers@outlook.com"
-                className="flex items-center gap-2 px-6 py-3 bg-terminal-green text-primary-foreground hover:bg-terminal-green/90 rounded transition-all font-medium w-full sm:w-auto justify-center"
+                className="flex items-center gap-2 px-6 py-3 bg-terminal-blue text-primary-foreground hover:bg-terminal-blue/90 rounded transition-all font-medium w-full sm:w-auto justify-center"
               >
                 <Mail className="w-5 h-5" />
                 <span>Send Email</span>
@@ -43,7 +43,7 @@ export function ContactSection() {
                 href="https://www.linkedin.com/in/csmurillo"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-6 py-3 bg-secondary hover:bg-secondary/80 border border-border rounded transition-all hover:border-terminal-green hover:text-terminal-green w-full sm:w-auto justify-center"
+                className="flex items-center gap-2 px-6 py-3 bg-secondary hover:bg-secondary/80 border border-border rounded transition-all hover:border-terminal-blue hover:text-terminal-blue w-full sm:w-auto justify-center"
               >
                 <Linkedin className="w-5 h-5" />
                 <span>LinkedIn</span>
@@ -53,7 +53,7 @@ export function ContactSection() {
                 href="https://github.com/karlohs01"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-6 py-3 bg-secondary hover:bg-secondary/80 border border-border rounded transition-all hover:border-terminal-green hover:text-terminal-green w-full sm:w-auto justify-center"
+                className="flex items-center gap-2 px-6 py-3 bg-secondary hover:bg-secondary/80 border border-border rounded transition-all hover:border-terminal-blue hover:text-terminal-blue w-full sm:w-auto justify-center"
               >
                 <Github className="w-5 h-5" />
                 <span>GitHub</span>
@@ -62,7 +62,7 @@ export function ContactSection() {
             </div>
 
             <div className="mt-8 text-muted-foreground text-sm">
-              <span className="text-terminal-green">›</span> carlosengineers@outlook.com
+              <span className="text-terminal-blue">›</span> carlosengineers@outlook.com
             </div>
           </div>
         </div>
